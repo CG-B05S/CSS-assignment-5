@@ -1,0 +1,123 @@
+.body{
+    margin: 0;
+}
+
+
+.bg{
+    background-color: rgb(221, 221, 26);
+}
+
+.centre{
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+.burde{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 250px;
+}
+.jungle{
+    height: 100px;
+    width: 100px;
+    padding: 10px; 
+    margin: 10px; 
+}
+.number{
+    padding: 0 0 0 300px;
+}
+.centre1{
+    background-color: #3d7e6f;
+    animation:alternate-reverse cgdude 3s infinite 1s;
+}
+@keyframes cgdude {
+    from{
+         transform:skewX(20deg);
+    }
+    to{
+        transform:skewX(-20deg);
+    }
+
+}
+.centre2{
+    background-color: silver;
+    animation: alternate-reverse cgbro 4s infinite;
+}
+@keyframes cgbro{
+    from{
+        transform:skewX(20deg);
+    }
+    to{
+        transform: skewX(-20deg);
+    }
+}
+.centre3{
+    background-color:#3d7e6f;
+    animation: normal cganna 3s infinite;
+}
+@keyframes cganna{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+.centre4{
+    background-color: #3d7e6f;
+    border: 3px solid #10765e;
+    animation:alternate cgdd 4s infinite 0s;
+}
+@keyframes cgdd{
+    from{
+        transform: rotateX(60deg);
+    }
+    to{
+        transform: rotateX(-60deg);
+    }
+}
+.centre5{
+    background-color: brown;
+    border: 3px solid #752b2b;
+    animation:alternate cgee 4s infinite 0s;
+}
+@keyframes cgee{
+    from{
+        transform: rotateY(70deg);
+    }
+    to{
+         transform: rotateY(-70deg);
+    }   
+}
+.centre6{
+    background-color:green;
+    border: 3px solid #1f712b;
+    animation: alternate cgff 2s infinite 0s;
+}
+@keyframes cgff{
+    from{
+        transform: rotateZ(10deg);
+    }
+    to{
+        transform: rotateZ(-90deg);
+    }
+}
+.burde1{
+    display: grid;
+    grid-template-columns: 20px 100px;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    gap: 15px 0px;
+    justify-content: center;
+}
+.jungle1{
+    height: 100px;
+    width: 100px;
+    background-color: #9ACD32;
+    transition: 1s all linear 0s;
+}
+.centre7:hover{
+    width: 300px;
+}
+.centre8:hover{
+    width: 300px;
+    height: 300px; 
+}
